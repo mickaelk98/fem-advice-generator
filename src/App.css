@@ -1,0 +1,86 @@
+html, body {
+  width: 100%;
+  height: 100vh;
+  background: var(--dark-blue);
+  font-family: "Manrope", serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+
+  background: var(--grayish-blue);
+  width: 95%;
+  max-width: 450px;
+  padding: 20px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+article h3 {
+  margin-bottom: 20px;
+  color: var(--neon-green);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+
+article q {
+  display: block;
+  color: var(--light-cyan);
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.separator-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.divider {
+  position: relative;
+  background: url(./assets/images/divider-mobile.svg) center/cover;
+  width: 50px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+
+.separator {
+  height: 1px;
+  background: var(--light-cyan);
+  width: 50%;
+}
+
+.dice {
+  background: var(--neon-green);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transform: translatey(-50%);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.dice:hover {
+  box-shadow: 0 0 20px 9px var(--neon-green);
+}
+
+img {
+  background: var(--neon-green);
+}
