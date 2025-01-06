@@ -84,3 +84,15 @@ article q {
 img {
   background: var(--neon-green);
 }
+
+
+@media screen and (min-width: 1024px) {
+  .divider {
+   
+    background: url(./assets/images/divider-desktop.svg) center/cover;
+    width: 50px;
+    height: 30px;
+    margin: 0 10px;
+  }
+  
+}
