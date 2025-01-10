@@ -15,7 +15,7 @@ main {
 
 article {
 
-  background: var(--grayish-blue);
+  background: var(--dark-blue);
   width: 95%;
   max-width: 450px;
   padding: 20px;
