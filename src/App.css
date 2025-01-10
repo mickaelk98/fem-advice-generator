@@ -17,7 +17,7 @@ article {
 
   background: var(--dark-grayish-blue);
   width: 95%;
-  max-width: 450px;
+  max-width: 500px;
   padding: 20px;
   padding-bottom: 60px;
   border-radius: 10px;
@@ -28,7 +28,7 @@ article {
 }
 
 article h3 {
-  margin-bottom: 20px;
+  margin: 30px 0;
   color: var(--neon-green);
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -40,7 +40,7 @@ article q {
   color: var(--light-cyan);
   font-size: 28px;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .separator-container {
@@ -52,15 +52,15 @@ article q {
 .divider {
   position: relative;
   background: url(./assets/images/divider-mobile.svg) center/cover;
-  width: 50px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: 0 10px;
 }
 
 
 .separator {
   height: 1px;
-  background: var(--light-cyan);
+  background: var(--grayish-blue);
   width: 50%;
 }
 
@@ -88,11 +88,15 @@ img {
 
 @media screen and (min-width: 1024px) {
   .divider {
-   
     background: url(./assets/images/divider-desktop.svg) center/cover;
     width: 50px;
     height: 30px;
     margin: 0 10px;
+  }
+
+  .dice {
+    width: 70px;
+    height: 70px;
   }
   
 }
